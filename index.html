@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booksky</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <div class="nav-container">
+<img src="book.png">
+    <h1>Booksky</h1>
+  </div>
+
+
+  <div class="container">
+    <div class="sub-div">
+      <h1>We Are not just a Strangers!</h1>
+      <h5>Faizal</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusamus itaque quaerat tempora
+        provident laborum modi, soluta enim placeat. Nam totam expedita voluptas, dolore placeat aut voluptatem
+        exercitationem quo earum.</p>
+      <button id="item-delete" onclick="deleted(event)">DELETE</button>
+    </div>
+
+
+  </div>
+
+  <!-- overlay section -->
+
+  <div class="overlay"></div>
+
+  <!-- Input Container -->
+
+  <div class="input-container">
+    <div class="input-field">
+      <h1>Add Book</h1>
+      <input placeholder="Enter Novel Name" id="inputField"><br>
+      <input placeholder="Enter Author Name" id="author"><br>
+      <textarea rows="8" cols="104" placeholder="Short Description!" id="text-area"></textarea><br>
+      <button id="add-btn">ADD</button>
+      <button id="delete-btn" onclick="click()">DELETE</button>
+    </div>
+  </div>
+
+  <!-- button -->
+
+  <button class="btn-section">+</button>
+</body>
+<script src="index.js"></script>
+
+</html>
